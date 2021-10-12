@@ -16,6 +16,8 @@ Explain what it does,
 - jQuery
 
 ## Challenges
+the first challenge for me was getting my contentful api to load...it took be 90 minutes to get it done.
+
 
 ## Trivia Sources
 - https://thelifeofspicers.com/disney-world-trivia/

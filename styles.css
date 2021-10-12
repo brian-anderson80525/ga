@@ -1,0 +1,76 @@
+/* •••••••••••••••••••••••
+••HEADING
+••••••••••••••••••••••• */
+
+h1 {
+    text-align: center;
+    color: red;
+
+}
+
+/* •••••••••••••••••••••••
+••QUESTION
+••••••••••••••••••••••• */
+
+#question {
+    width: 70%;
+    padding: 30px;
+    border: 3px solid blue;
+    background-color: royalblue;
+    color: white;
+    font-size: 28px;
+    margin: 10px auto;
+}
+
+/* •••••••••••••••••••••••
+••ANSWERS
+••••••••••••••••••••••• */
+
+#answer {
+    width: 60%;
+    margin: 10px auto;
+    color: white;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+#answer ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+
+}
+#answer ul li {
+    width: 45%;
+    height: 40px;
+    background-color: black;
+    padding-top: 15px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+/* •••••••••••••••••••••••
+••SCOREBOARD
+••••••••••••••••••••••• */
+
+#scores {
+    display: flex;
+    width: 70%;
+    background-color: darkgreen;
+    justify-content: center;
+    margin: 10px auto;
+    
+}
+#playr1, #playr2 {
+    width: 40%;
+    background-color: darkkhaki;
+    margin: 5px;
+    text-align: center;
+    
+}
