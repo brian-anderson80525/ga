@@ -17,6 +17,10 @@ Explain what it does,
 
 ## Challenges
 
+## Trivia Sources
+- https://thelifeofspicers.com/disney-world-trivia/
+- https://www.funtrivia.com/en/Entertainment/Walt-Disney-World-2566.html
+
 #### I have trouble with 
 
 My code looked like this
