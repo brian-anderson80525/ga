@@ -61,4 +61,4 @@ console.log(data)
 console.log(questions)
 
 setBoard(questions)
-})
+}) 

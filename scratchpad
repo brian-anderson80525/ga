@@ -1,0 +1,20 @@
+// const chooseAnswer = (event, question) => {
+//     console.log(event)
+//     if 
+//     (event.target.innerText === question.answer){
+//     console.log("correct")
+// { if (state.which){
+//     state.player1++
+//     state.which = !state.which
+// } 
+// else {
+//     state.player2++
+//     state.which = !state.which
+// }
+// setBoard(questions)}
+// } else { 
+//     console.log("incorrect")
+//     setBoard(questions)
+//     state.which = !state.which
+// }}
+    
