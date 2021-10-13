@@ -27,6 +27,17 @@ const $plyr2score = $("#playr2 h4")
 //  FUNCTIONS
 //•••••••••••••••
 
+const chooseAnswer = (event, question) => {
+    console.log(event)
+    if(event.target.innerText === question.answer){
+        console.log("correct")
+    } else {
+        console.log("incorrect")
+    }
+        
+
+}
+
 const setBoard = (q) => {
     const randomIndex = Math.floor(Math.random() * q.length)
     const randomQuestion = q[randomIndex]
@@ -42,15 +53,13 @@ const setBoard = (q) => {
     //update players score
     $plyr1score.text(state.player1)
     $plyr2score.text(state.player2)
+
+
+    $("li").on("click", (event) => {
+        chooseAnswer(event, randomQuestion)
+    })
+
 }
-
-
-
-
-
-
-
-
 
 
 const URL = "https://cdn.contentful.com/spaces/65xpfl7lwlp1/environments/master-2021-10-12/entries?access_token=sH6cuOfVp4bRtP3XNLdm2rM5HGLuAs6HGW8nV2PcnX8&content_type=DisneyTriviaQ"
