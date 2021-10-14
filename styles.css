@@ -1,9 +1,10 @@
 /* •••••••••••••••••••••••
 ••HEADING
 ••••••••••••••••••••••• */
-/* * {
-    border: 2px dotted wheat;
-} */
+body {
+    background-image: url ("https://i.imgur.com/33pFjBD.png");
+   
+}
 
 h1 {
     width: 90%;
@@ -44,6 +45,7 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     
+    
 
 }
 #answer ul {
@@ -63,6 +65,7 @@ h1 {
     margin: 10px;
     font-weight: bolder;
     border-radius: 5px;
+   
 }
 
 /* •••••••••••••••••••••••
@@ -86,5 +89,6 @@ h1 {
     margin: 5px;
     text-align: center;
     border-radius: 15px;
+    border: 3px solid white;
 
 }

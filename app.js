@@ -30,7 +30,7 @@ const $plyr2score = $("#playr2 h4")
 const chooseAnswer = (event, question) => {
     console.log(event)
     if(event.target.innerText === question.answer){
-        console.log("correct")
+        // console.log("correct")
         if (state.which){
             state.player1++
             state.which = !state.which
@@ -40,7 +40,7 @@ const chooseAnswer = (event, question) => {
         }
         setBoard(questions)
     } else {
-        console.log("incorrect")
+        // console.log("incorrect")
         setBoard(questions)
         state.which = !state.which
     }
